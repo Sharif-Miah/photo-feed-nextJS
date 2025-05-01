@@ -4,7 +4,7 @@ import Link from 'next/link';
 const PhotoCart = ({ photo }) => {
   return (
     <Link
-      href={`photo${photo.id}`}
+      href={`photo/${photo.id}`}
       className='group'>
       <Image
         src={photo.url}
